@@ -326,4 +326,12 @@ module.exports = {
     transform: lineups,
   },
 
+  teamGameLog: {
+    url: "http://stats.nba.com/stats/teamgamelog",
+    defaults: {
+        SeasonType: "Regular Season",
+        Season: DEFAULT_SEASON
+    },
+    transform: base
+  }
 };
