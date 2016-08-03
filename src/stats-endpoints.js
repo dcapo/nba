@@ -205,6 +205,12 @@ module.exports = {
     transform: general,
   },
 
+  boxScoreSummary: {
+    url: "http://stats.nba.com/stats/boxscoresummaryv2",
+    defaults: boxScoreDefaults,
+    transform: general
+  },
+
   boxScoreScoring: {
     url: "http://stats.nba.com/stats/boxscorescoring",
     defaults: boxScoreDefaults,
